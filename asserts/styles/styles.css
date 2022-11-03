@@ -1,0 +1,25 @@
+.body{
+    background-color: antiquewhite;
+}
+.header{
+    background-image: url("../styles/images/avatar.jpg");
+    background-size: auto;
+    min-height: 35vh;
+    display: flex;
+    align-items: flex-end;
+}
+
+.bars{
+    background-color: antiquewhite;
+}
+
+.col{
+    background-color: aqua;
+    color: white;
+}
+
+
+#container{
+    width: 50vh;
+    display: block;
+}
