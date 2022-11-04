@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
 .body{
     background-color: antiquewhite;
+    margin: 0;
 }
 .header{
     background-image: url("../styles/images/avatar.jpg");
@@ -7,6 +10,7 @@
     min-height: 35vh;
     display: flex;
     align-items: flex-end;
+    background-repeat: no-repeat;
 }
 
 .bars{
@@ -15,20 +19,20 @@
 }
 
 .col{
-    background-color: rgba(29, 124, 29, 0.87);
+    background-color: #009688;
     color: white;
     border-radius: 9px;
     text-align: end;
 }
 
-
-#container{
-    width: 20vw;
+#container1{
+    width: 25vw;
     display: block;
+    background-color: white;
 }
 
 #container2{
-    width: 30vw;
+    width: 40vw;
 }
 
 #experiance,
@@ -41,6 +45,21 @@
     grid-template-columns: auto auto;
     justify-content: center;
     column-gap: 3vw;
-    width: 60%;
+    width: 80%;
     margin: auto;
+}
+
+footer{
+    background-color: #009688;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
 }
