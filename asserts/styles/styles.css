@@ -11,15 +11,36 @@
 
 .bars{
     background-color: antiquewhite;
+    border-radius: 7px;
 }
 
 .col{
-    background-color: aqua;
+    background-color: rgba(29, 124, 29, 0.87);
     color: white;
+    border-radius: 9px;
+    text-align: end;
 }
 
 
 #container{
-    width: 50vh;
+    width: 20vw;
     display: block;
+}
+
+#container2{
+    width: 30vw;
+}
+
+#experiance,
+#education {
+    display: block;
+}
+
+#main{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    column-gap: 3vw;
+    width: 60%;
+    margin: auto;
 }
