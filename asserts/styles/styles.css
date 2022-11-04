@@ -1,12 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
-
-.body{
-    background-color: antiquewhite;
+body{
+    background-color:  #f1f1f1;
     margin: 0;
 }
 .header{
     background-image: url("../styles/images/avatar.jpg");
-    background-size: auto;
+    background-size: cover;
+    position: relative;
     min-height: 35vh;
     display: flex;
     align-items: flex-end;
@@ -26,27 +25,37 @@
 }
 
 #container1{
-    width: 25vw;
+    width: 30vw;
     display: block;
     background-color: white;
+    border: 1px solid beige;
+    height: fit-content;
 }
 
 #container2{
     width: 40vw;
 }
 
+.contact{
+    padding: 20px;
+}
+
 #experiance,
 #education {
     display: block;
+    border: 1px solid beige;
+    background-color: white;
+    padding: 20px;
 }
 
 #main{
     display: grid;
     grid-template-columns: auto auto;
     justify-content: center;
-    column-gap: 3vw;
+    column-gap: 2vw;
     width: 80%;
     margin: auto;
+
 }
 
 footer{
@@ -56,10 +65,39 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: white;
 }
 
 .text{
     display: flex;
     align-items: center;
     gap: 1rem;
+}
+.icon{
+    color: #009688 ;
+}
+
+@media screen and (max-width: 425px){
+
+    #main{
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        column-gap: 2vw;
+        width: 90%;
+        margin: auto;
+     }
+ 
+     #container1{
+        width: 100%;
+        display: block;
+        background-color: white;
+        border: 1px solid beige;
+        height: fit-content;
+    }
+    
+    #container2{
+        width: 100%;
+    }
+    
 }
