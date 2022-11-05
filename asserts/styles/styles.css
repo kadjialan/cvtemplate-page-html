@@ -49,7 +49,7 @@ body {
   padding: 20px;
 }
 
-#main {   
+#main {  
   display: grid;
   grid-template-columns: auto auto;
   justify-content: center;
@@ -81,7 +81,7 @@ footer {
   #main {
     grid-template-columns: auto;
     width: 90%;
-   }
+  }
 
   #container1 {
     width: 100%;
