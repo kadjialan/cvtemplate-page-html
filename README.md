@@ -11,7 +11,7 @@ This project is named cv.
 This page give information about Jane Doe cv. mainly, here
 adresses,
 here skills and languages in a decreasing order displayed as
-progresse bars. Some informations about here academic path can 
+progresse bars. Some informations about here academic path can
 as well be gotten from the page.
 
 ## Built With
