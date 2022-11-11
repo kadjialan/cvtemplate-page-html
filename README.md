@@ -4,7 +4,7 @@ This project is named cv.
 
 ## APP
 
-![avatar](./asserts/styles/images/avatar.jpg)
+![avatar](asserts/styles/images/avatar.jpg)
 
 ## ABOUT
 
@@ -59,7 +59,7 @@ Knowledge about:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](link to issue page on GitHub).
+Feel free to check the [issues page](https://github.com/kadjialan/cvtemplate-page-html/issues).
 
 ## Show your support
 
