@@ -1,0 +1,93 @@
+body {
+  background-color: #f1f1f1;
+  margin: 0;
+}
+
+.header {
+  background-image: url("../styles/images/avatar.jpg");
+  background-size: cover;
+  position: relative;
+  min-height: 35vh;
+  display: flex;
+  align-items: flex-end;
+  background-position: center;
+}
+
+.bars {
+  background-color: #f1f1f1;
+  border-radius: 7px;
+}
+
+.col {
+  background-color: #009688;
+  color: white;
+  border-radius: 9px;
+  text-align: end;
+}
+
+#container1 {
+  width: 30vw;
+  display: block;
+  background-color: white;
+  border: 1px solid beige;
+  height: fit-content;
+}
+
+#container2 {
+  width: 40vw;
+}
+
+.contact {
+  padding: 20px;
+}
+
+#experiance,
+#education {
+  display: block;
+  border: 1px solid beige;
+  background-color: white;
+  padding: 20px;
+}
+
+#main {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  column-gap: 2vw;
+  width: 80%;
+  margin: auto;
+}
+
+footer {
+  background-color: #009688;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.text {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.icon {
+  color: #009688;
+}
+
+@media screen and (max-width: 425px) {
+  #main {
+    grid-template-columns: auto;
+    width: 90%;
+  }
+
+  #container1 {
+    width: 100%;
+  }
+
+  #container2 {
+    width: 100%;
+  }
+}
