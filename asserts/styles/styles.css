@@ -45,7 +45,7 @@ body {
 #education {
   display: block;
   border: 1px solid beige;
-  background-color: white;
+  background-color: #fff;
   padding: 20px;
 }
 
@@ -64,7 +64,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: white;
+  color: #fff;
 }
 
 .text {
